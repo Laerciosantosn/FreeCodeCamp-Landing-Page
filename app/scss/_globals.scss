@@ -17,6 +17,10 @@ body {
   font-weight: 300;
   color: $grayishBlue;
   line-height: 1.3;
+
+  &.noscroll {
+    overflow: hidden;
+  }
 }
 
 a,
@@ -26,8 +30,13 @@ a:hover {
   // color: $grayishBlue;
 }
 
-// Flexbox
+// Spacing
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 
+// Flexbox
 .flex {
   display: flex;
 
